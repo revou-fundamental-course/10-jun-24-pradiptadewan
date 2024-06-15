@@ -1,0 +1,63 @@
+body, html{
+    justify-content:  center;
+    margin: auto;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.title{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    background-color: #4CAF50;
+}
+
+.container{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.icon{
+    font-family: math;
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    background-color: rgb(230, 226, 221);
+    margin-top: -15px;
+    font-family: math;
+}
+
+.button{
+    text-align: center;
+}
+
+.button button{
+    background-color: #4CAF50;
+    border: 0;
+    padding: 8px 16px;
+    margin: 5px 0 0 10px;
+    font-weight: 600;
+    color: white;
+}
+
+.button button:hover{
+    cursor: pointer;
+    background-color: rgb(205, 0, 55);
+    color: white;
+}
+
+.formula{
+    text-align: center;
+}
+
