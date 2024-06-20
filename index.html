@@ -6,6 +6,7 @@
     <title>Web Konversi Suhu</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
 
 </head>
 <body>
@@ -24,12 +25,12 @@
             <header>
                 <h5>Celcius (&deg;C) : </h5>
                 <section>
-                    <textarea></textarea>
+                    <textarea id="celcius"></textarea>
                 </section>
                 <section class="button">
-                    <button>KONVERSI</button>
-                    <button>RESET</button>
-                    <button>REVERSE</button>
+                    <button data-action="konversi">KONVERSI</button>
+                    <button data-action="reset">RESET</button>
+                    <button data-action="reverse">REVERSE</button>
                 </section>
             </header>
         </section>
@@ -39,7 +40,7 @@
             <header>
                 <h5>Fahrenheit (&deg;F) : </h5>
                 <section>
-                    <textarea></textarea>
+                    <textarea id="fahrenheit"></textarea>
                 </section>
             </header>
         </section>
@@ -49,7 +50,7 @@
             <header>
                 <h5>Cara Kalkulasi</h5>
                 <section>
-                    <textarea></textarea>
+                    <textarea id="cara-kalkulasi"></textarea>
                 </section>
             </header>
          </section>
